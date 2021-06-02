@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="338.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Dev">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="500.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@1.1.jpg" />
+         </image></ImageView>
+      <AnchorPane prefHeight="600.0" prefWidth="400.0">
+         <children>
+            <Label fx:id="XD" layoutX="108.0" layoutY="111.0" prefHeight="79.0" prefWidth="167.0" text="About US!" textFill="WHITE">
+               <font>
+                  <Font name="Garamond Bold" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="Hurr" layoutX="62.0" layoutY="232.0" prefHeight="105.0" prefWidth="277.0" text="ANIK &amp; FAHIM" textFill="WHITE">
+               <font>
+                  <Font name="Garamond Bold" size="36.0" />
+               </font>
+            </Label>
+            <Button fx:id="BACK" layoutX="169.0" layoutY="455.0" mnemonicParsing="false" onAction="#backAction" text="BACK" />
+         </children></AnchorPane>
+   </children>
+</StackPane>

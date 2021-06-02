@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="338.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HiScore">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="500.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@1.1.jpg" />
+         </image></ImageView>
+      <AnchorPane prefHeight="600.0" prefWidth="400.0">
+         <children>
+            <Label fx:id="HiScore" contentDisplay="CENTER" graphicTextGap="10.0" layoutX="107.0" layoutY="151.0" prefHeight="99.0" prefWidth="213.0" text="Highest Score" textFill="WHITE">
+               <font>
+                  <Font name="Garamond Bold" size="33.0" />
+               </font></Label>
+            <Label fx:id="Score" layoutX="143.0" layoutY="267.0" prefHeight="37.0" prefWidth="114.0" text="Label" textFill="WHITE">
+               <font>
+                  <Font name="Garamond Bold" size="35.0" />
+               </font></Label>
+            <Button fx:id="BACK" layoutX="155.0" layoutY="453.0" mnemonicParsing="false" onAction="#backAction" prefHeight="40.0" prefWidth="90.0" text="BACK" />
+         </children></AnchorPane>
+   </children>
+</StackPane>

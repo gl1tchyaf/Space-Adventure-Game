@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane minHeight="600.0" minWidth="400.0" prefHeight="700.0" prefWidth="470.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.GameController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@GameBackImg.png" />
+         </image>
+         <StackPane.margin>
+            <Insets right="70.0" />
+         </StackPane.margin>
+      </ImageView>
+      <AnchorPane prefHeight="698.0" prefWidth="470.0">
+          <children>
+            <ImageView fx:id="BigRock1" fitHeight="40.0" fitWidth="54.0" layoutX="165.0" layoutY="-41.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="BigRock2" fitHeight="40.0" fitWidth="54.0" layoutX="165.0" layoutY="-41.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView fx:id="BigRock3" fitHeight="40.0" fitWidth="54.0" layoutX="165.0" layoutY="-41.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView fx:id="BigRock4" fitHeight="40.0" fitWidth="54.0" layoutX="165.0" layoutY="-41.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView fx:id="BigRock5" fitHeight="40.0" fitWidth="54.0" layoutX="165.0" layoutY="-41.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView fx:id="BigRock6" fitHeight="40.0" fitWidth="54.0" layoutX="165.0" layoutY="-41.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView fx:id="BigRock7" fitHeight="40.0" fitWidth="54.0" layoutX="165.0" layoutY="-41.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="Bullet" fitHeight="40.0" fitWidth="30.0" layoutX="186.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="PlaneImg" fitHeight="50.0" fitWidth="54.0" layoutX="176.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true" />
+            <Button fx:id="BACK" layoutX="419.0" layoutY="415.0" mnemonicParsing="false" onAction="#backAction" text="BACK">
+               <font>
+                  <Font name="Garamond Bold" size="12.0" />
+               </font>
+               <effect>
+                  <DropShadow>
+                     <color>
+                        <Color red="1.0" />
+                     </color>
+                  </DropShadow>
+               </effect></Button>
+            <Label layoutX="419.0" layoutY="55.0" prefHeight="22.0" prefWidth="49.0" text="Score">
+               <font>
+                  <Font name="Garamond Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="ScoreLbl" layoutX="419.0" layoutY="89.0" prefHeight="25.0" prefWidth="49.0">
+               <font>
+                  <Font name="Garamond Bold" size="20.0" />
+               </font>
+            </Label>
+          </children>
+      </AnchorPane>
+   </children>
+</StackPane>

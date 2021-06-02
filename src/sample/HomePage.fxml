@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane prefHeight="700.0" prefWidth="388.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HomePageController">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="500.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@1.1.jpg" />
+         </image></ImageView>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="366.0">
+         <children>
+            <Button fx:id="ButtonNewGame" contentDisplay="CENTER" graphicTextGap="10.0" layoutX="66.0" layoutY="141.0" mnemonicParsing="false" onAction="#NewGameAction" prefHeight="37.0" prefWidth="175.0" text="New Game" textAlignment="CENTER">
+               <font>
+                  <Font name="Garamond Bold" size="18.0" />
+               </font>
+               <effect>
+                  <DropShadow blurType="GAUSSIAN">
+                     <color>
+                        <Color red="0.8500000238418579" green="0.1445000022649765" blue="0.1445000022649765" />
+                     </color>
+                     <input>
+                        <Glow level="0.25" />
+                     </input>
+                  </DropShadow>
+               </effect>
+            </Button>
+            <Button fx:id="ButtonHighestScore" contentDisplay="CENTER" graphicTextGap="10.0" layoutX="120.0" layoutY="211.0" mnemonicParsing="false" onAction="#HighestScoreAction" prefHeight="37.0" prefWidth="175.0" text="Highest Score" textAlignment="CENTER">
+               <font>
+                  <Font name="Garamond Bold" size="18.0" />
+               </font>
+               <effect>
+                  <DropShadow blurType="GAUSSIAN">
+                     <color>
+                        <Color red="0.8500000238418579" green="0.1445000022649765" blue="0.1445000022649765" />
+                     </color>
+                     <input>
+                        <Glow level="0.25" />
+                     </input>
+                  </DropShadow>
+               </effect>
+            </Button>
+            <Button fx:id="ButtonIntroduction" contentDisplay="CENTER" graphicTextGap="10.0" layoutX="66.0" layoutY="282.0" mnemonicParsing="false" onAction="#IntroductionAction" prefHeight="37.0" prefWidth="175.0" text="Introduction" textAlignment="CENTER">
+               <font>
+                  <Font name="Garamond Bold" size="18.0" />
+               </font>
+               <effect>
+                  <DropShadow blurType="GAUSSIAN">
+                     <color>
+                        <Color red="0.8500000238418579" green="0.1445000022649765" blue="0.1445000022649765" />
+                     </color>
+                     <input>
+                        <Glow level="0.25" />
+                     </input>
+                  </DropShadow>
+               </effect>
+            </Button>
+            <Button fx:id="ButtonDevelopers" contentDisplay="CENTER" graphicTextGap="10.0" layoutX="120.0" layoutY="355.0" mnemonicParsing="false" onAction="#DevelopersAction" prefHeight="37.0" prefWidth="175.0" text="Developers" textAlignment="CENTER">
+               <font>
+                  <Font name="Garamond Bold" size="18.0" />
+               </font>
+               <effect>
+                  <DropShadow blurType="GAUSSIAN">
+                     <color>
+                        <Color red="0.8500000238418579" green="0.1445000022649765" blue="0.1445000022649765" />
+                     </color>
+                     <input>
+                        <Glow level="0.25" />
+                     </input>
+                  </DropShadow>
+               </effect>
+            </Button>
+            <Button fx:id="ButtonExit" cancelButton="true" contentDisplay="CENTER" graphicTextGap="10.0" layoutX="66.0" layoutY="430.0" mnemonicParsing="false" onAction="#ExitAction" prefHeight="37.0" prefWidth="175.0" style="-fx-background-color: #FF0000;" text="Exit" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Garamond Bold" size="18.0" />
+               </font>
+               <effect>
+                  <DropShadow blurType="GAUSSIAN">
+                     <color>
+                        <Color red="0.8500000238418579" green="0.1445000022649765" blue="0.1445000022649765" />
+                     </color>
+                     <input>
+                        <Glow level="0.25" />
+                     </input>
+                  </DropShadow>
+               </effect>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

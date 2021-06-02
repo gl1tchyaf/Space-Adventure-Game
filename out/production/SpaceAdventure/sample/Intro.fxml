@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="338.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.IntroCon">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="500.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@1.1.jpg" />
+         </image></ImageView>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Label layoutX="106.0" layoutY="106.0" prefHeight="53.0" prefWidth="155.0" text="About US" textFill="WHITE">
+               <font>
+                  <Font name="Garamond Bold" size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="79.0" layoutY="216.0" prefHeight="168.0" prefWidth="311.0" text="AGAY BANAI" textFill="WHITE">
+               <font>
+                  <Font name="Garamond Bold" size="36.0" />
+               </font>
+            </Label>
+            <Button fx:id="BACK" layoutX="133.0" layoutY="455.0" mnemonicParsing="false" onAction="#backAction" prefHeight="38.0" prefWidth="101.0" text="BACK" />
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

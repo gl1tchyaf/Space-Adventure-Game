@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.GameOverController">
+    <children>
+        <ImageView fitHeight="700.0" fitWidth="470.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@GameBackImg.png" />
+            </image></ImageView>
+        <AnchorPane prefHeight="700.0" prefWidth="400.0">
+            <children>
+                <Label alignment="CENTER" layoutX="82.0" layoutY="103.0" prefHeight="53.0" prefWidth="236.0" style="-fx-border-color: #FF0000;" text="GAME OVER" textFill="RED">
+                    <font>
+                        <Font name="Lucida Fax Demibold" size="36.0" />
+                    </font>
+                </Label>
+                <Button fx:id="BACK" layoutX="106.0" layoutY="418.0" mnemonicParsing="false" onAction="#backAction" prefHeight="39.0" prefWidth="189.0" style="-fx-background-color: #FF0000;" text="BACK TO HOME" textFill="WHITE">
+               <font>
+                  <Font name="Garamond Bold" size="20.0" />
+               </font></Button>
+            <Label fx:id="Scr" alignment="CENTER" layoutX="87.0" layoutY="250.0" prefHeight="53.0" prefWidth="227.0" textFill="RED">
+               <font>
+                  <Font name="Lucida Fax Demibold" size="36.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="87.0" layoutY="187.0" prefHeight="53.0" prefWidth="227.0" text="SCORE" textFill="#dfff00">
+               <font>
+                  <Font name="Lucida Fax Demibold" size="36.0" />
+               </font>
+            </Label>
+            </children>
+        </AnchorPane>
+    </children>
+</StackPane>
